@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href="css/index.css">
+    <script src = "socket.io/socket.io.js"></script>
+    <title>채팅</title>
+</head>
+<body>
+    <div class="chat_wrap">
+        <div class="header">
+            CHAT
+        </div>
+        <div class="chat">
+            <ul>
+                <!--동적생성-->
+            </ul>
+        </div>
+        <div class="input-div">
+            <textarea id ="test" placeholder ="Press Enter for send message."></textarea>
+            <input onclick="send()" class="sendbtn" type="button" value="전송"/>
+           
+        </div>
+        <!--format-->
+        
+        <div class="chat format">
+            <ul>
+                <li>
+                    <div class="sender">
+                        <span></span>
+                    </div>
+                    <div class="message">
+                        <span></span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- jquery -->
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src ="/js/index.js"></script>
+
+
+</body>
+</html>
+

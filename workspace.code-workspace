@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\..\\HMIT\\Desktop\\nodejs"
+		},
+		{
+			"path": "..\\..\\..\\HMIT\\Desktop\\program\\VSCODE\\CO_TOOL"
+		},
+		{
+			"path": "..\\..\\..\\HMIT\\Desktop\\program\\VSCODE\\CHAT"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "nodejs"
+	}
+}
